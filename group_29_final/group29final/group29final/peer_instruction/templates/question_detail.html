@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Question Detail</title>
+    <style>
+        /* CSS styles for Question Detail page */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            color: #333;
+            margin-top: 50px;
+            text-align: center;
+        }
+
+        h2 {
+            color: #666;
+            text-align: center;
+        }
+
+        img {
+            display: block;
+            margin: 20px auto;
+            border: 2px solid #ccc;
+            border-radius: 10px;
+        }
+
+        a {
+            display: block;
+            width: 200px;
+            margin: 10px auto;
+            padding: 10px;
+            text-align: center;
+            color: #fff;
+            background-color: #007bff;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+
+        img.question-image {
+            width: 300px; /* Adjust the width as needed */
+            height: auto; /* Maintain aspect ratio */
+        }
+
+        a:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <h1>Question Detail</h1>
+    <h2>{{ question.text }}</h2>
+    {% if question.image %}
+        <img src="{{ question.image.url }}" alt="Image for this question" class="question-image">
+    {% endif %}
+    <img src="{{ question.qr_code_img.url }}" alt="QR Code for this question" style="width:150px;height:150px;">
+    <a href="{% url 'view_answers' question.id %}">View Answers</a>
+    <a href="{% url 'teacher_home' %}">Back to Teacher Homepage</a>
+</body>
+</html>
