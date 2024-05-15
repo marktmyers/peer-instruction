@@ -1,33 +1,24 @@
-# Final-Project-Starter
+# Peer Instruction
 
-1. License
-2. add your names to the readme (this file)
-3. Scaffold your project
-4. Task Board
+## Description
+This is a final project for a Full-Stack Web Development course at James Madison University. It allows teachers to add questions to show students so that they may answer them from their devices. The answers are then displayed on screen for the class to review together.
 
-## License
+## Languages and Utilities Used
+- **HTML**
+- **JavaScript**
+- **CSS**
 
-[License your repository](﻿https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository﻿) with some license that says future students and faculty could build on your work (e.g. the MIT license or a "Copyleft" license if you prefer)
+## Environments Used
+- **macOS**
+- **HelloDjango**
 
-## The Team
+## How to Use
+1. Clone/download the repository to your local machine.
+2. cd into peer-instruction/group_29_final/group29final
+3. Run python manage.py runserver
+4. Visit the URL where it is being hosted.
+5. Now you can make questions and display them as necessary.
 
-Mostly just to make sure you each have access and can pull and push to the repo, add your name here:
-1. Ryan Mendez
-1. Samuel Snyder
-1. Nick St. Amour
-1. Mark Myers
+## Contributing
+Contributions to this project are welcome! Please fork the repository and submit a pull request with your improvements.
 
-## Scaffolding
-
-In the Wedge of Django, they show you how to work with the [django-crash-starter](https://github.com/feldroy/django-crash-starter) cookiecutter template. That template is likely sufficient for your final project. For your reference, there's also a more "production-ready" (i.e. complicated) cookiecutter template for django projects built and maintained by some of the same cast of characters. The latter is called simply (if not so humbly 😳) [Cookiecutter Django](https://github.com/cookiecutter/cookiecutter-django/) and its documentation especially about [the project generation options is here](https://cookiecutter-django.readthedocs.io/en/latest/project-generation-options.html).
-
-Talk with your team and choose one of these cookiecutter templates and run it to get things rolling.
-
-## Task Board
-
-It's not exactly time yet, but if you're excited I don't want to stand in the way. For (at least) the last 6 weeks of the semester, we'll organize your work into 2-week "Sprints" using a "task board". GitHub has a feature that the unfortunately call "projects" that we can use to plan and coordinate. There are many templates available, perhaps the "Featued" template titled "Iterative Developement" would be a good choice.
-
-1. Find the "Projects" tab at the top of your repo in github
-2. Click the arrow beside the green "Link Project" button and choose "New Project"
-3. I guess now you also have to click "New Project" 🙄
-4. find the "iterative development" template and choose it.
